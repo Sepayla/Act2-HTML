@@ -1,0 +1,116 @@
+*{
+    font-family: 'Courier New';
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f9eee4;
+    overflow-x: hidden;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 100%;
+    background: #252423;
+    padding: 5% 30px;
+    text-align: center;
+}
+
+.profile img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #b67331;
+    margin-bottom: 10px;
+}
+
+.profile h2{
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.profile p{
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.nav{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.nav ul li a {
+    display: block;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.nav ul li a:hover{
+    background: #b67331;
+}
+
+.main{
+    position: relative;
+    height: 100vh;
+    width: calc(100% - 350px);
+    left: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    padding: 50px;
+    margin-top: -150px;
+}
+
+.main h3{
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+}
+
+.main h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.main h1 span{
+    color: #b67331;
+}
+
+.main p{
+    width: 100%;
+    max-width: 600px;
+    font-weight: 200;
+}
+
+.main .btn{
+    margin-top: 20px;
+    padding: 13px 30px;
+    width: 150px;
+    height: 50px;
+    color: black;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    border: solid #b67331;
+}
+
+.main .btn:hover{
+    background: #b67331;
+}
