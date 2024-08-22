@@ -23,7 +23,7 @@ body{
 
 
 span{
-    color: #b67331;
+    color: var(--color-orange);
 }
 
 .icons a{
@@ -63,18 +63,18 @@ span{
     height: 120px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid #b67331;
+    border: 3px solid va;
     margin-bottom: 10px;
 }
 
 .profile h2{
     font-size: 40px;
-    color: aliceblue;
+    color: var(--text-color);
 }
 
 .profile p{
     font-size: 20px;
-    color: aliceblue;
+    color: var(--text-color);
 }
 
 .nav{
@@ -88,7 +88,7 @@ span{
     padding: 10px;
     margin: 15px 0;
     border-radius: 50px;
-    color: white;
+    color: var(--text-color);
     font-size: 18px;
     transition: 0.5s;
     text-transform: uppercase;
@@ -109,15 +109,15 @@ span{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: black;
-    margin-top: 5px;
+    color: var(--background);
+    margin-top: 50px;
     padding: 50px;
 }
 
 .main h3{
     font-size: 30px;
     font-weight: 500;
-    color: black;
+    color: var(--background);
 }
 
 .main h1{
@@ -128,7 +128,7 @@ span{
 }
 
 .main h1 span{
-    color: #b67331;
+    color: var(--color-orange);
 }
 
 .main p{
@@ -142,7 +142,7 @@ span{
     padding: 13px 30px;
     width: 150px;
     height: 50px;
-    color: black;
+    color: var(--background);
     border: none;
     font-size: 15px;
     font-weight: 600;
@@ -159,4 +159,14 @@ span{
     box-shadow: 0 0 25px var(--color-orange);
 }
 
-
+.image img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--color-orange);
+    margin-bottom: 10px;
+    float: right;
+    margin-top: -450px;
+    margin-right: 400px;
+}
